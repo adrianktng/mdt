@@ -4,7 +4,7 @@ info_page <- function(id) {
 }
 
 info_image_page <- function(id) {
-  psychTestR::one_button_page(shiny::tags$img(src = "https://shiny.rstudio.com/images/shiny-solo.svg"),
+  psychTestR::one_button_page(shiny::tags$img(src = "1.jpg"),
                               button_text = psychTestR::i18n("AMDI_0016_I_0001_1"))
 }
 
